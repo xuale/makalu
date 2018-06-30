@@ -1,0 +1,25 @@
+{
+  "name": "makalu",
+  "version": "1.0.0",
+  "description": "a reactive, declarative menu component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xualexander/makalu.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "menu",
+    "dropdown"
+  ],
+  "author": "Alex Xu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xualexander/makalu/issues"
+  },
+  "homepage": "https://github.com/xualexander/makalu#readme"
+}
