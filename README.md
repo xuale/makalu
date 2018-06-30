@@ -65,6 +65,8 @@ The source code uses a modern stack, including [emotion](https://emotion.sh/docs
 ## API
 ### `Menu`
 The highest level wrapper, containing various `MenuSection` and `MenuItem` components. It is also used to nest submenus, further explained in [`MenuItem`](#menuitem).  
+  
+  
 | Props |  Type  | Description |
 | ------| ------ | ------------|
 | horizontal | boolean | Determines alignment of menu |
@@ -72,14 +74,18 @@ The highest level wrapper, containing various `MenuSection` and `MenuItem` compo
 | isOpen | boolean | `Menu` is visible only if true |
 | onMenuClose | function | User-defined function for closing `Menu`, e.g. setting `isOpen` to false somehow|
 ### `MenuSection`
-Partitions a `Menu` component into organizational sections and can contain `MenuItem` component(s). `MenuSection` also comes with a search feature to filter contained `MenuItem` components by their `key` prop.
+Partitions a `Menu` component into organizational sections and can contain `MenuItem` component(s). `MenuSection` also comes with a search feature to filter contained `MenuItem` components by their `key` prop.  
+  
+  
 | Props |  Type  | Description |
 | ------| ------ | ------------|
 | title | string | Determines section header |
 | isSearch | boolean | Initializes current `MenuSection` to have a search filter if true |
 | searchSettings | string | Determines placeholder text in the search bar, if `MenuSection` has `isSearch` equal to true |
 ### `MenuItem`
-An individual item in a `Menu`. Generally, it displays a `title` and/or `icon`, but custom JSX can also be injected via the `render` prop. Upon being clicked, a `MenuItem` may either redirect to another route, generate a submenu, or perform a custom `onClick` function
+An individual item in a `Menu`. Generally, it displays a `title` and/or `icon`, but custom JSX can also be injected via the `render` prop. Upon being clicked, a `MenuItem` may either redirect to another route, generate a submenu, or perform a custom `onClick` function  
+  
+  
 | Props |  Type  | Description |
 | ------| ------ | ------------|
 | title | string | Determines main text |
